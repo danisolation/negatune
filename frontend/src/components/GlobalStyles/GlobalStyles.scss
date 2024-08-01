@@ -5,6 +5,12 @@
     --white: #fff;
     --text-color: #fff;
     --font-family: 'poppins', sans-serif;
+    --color-grey-light: #d4d4d4;
+    --transition: all 0.3s ease-in-out;
+    --color-black-light: #242424;
+    --bs-body-color: #212529;
+    --bs-border-width: 1px;
+    --bs-border-color: #dee2e6;
 }
 
 * {
@@ -34,11 +40,13 @@ a {
 
 .container{
     width: 100%;
-    padding-right: 5em;
-    padding-left: 5em;
+    padding-right: .5em;
+    padding-left: .5em;
     margin-right: auto;
     margin-left: auto;
 }
+
+
 
 @media (min-width: 576px) {
     .container, .container-sm {
@@ -47,6 +55,8 @@ a {
 }
 
 @media (min-width: 768px) {
+    
+
     .container, .container-md, .container-sm {
         max-width: 720px;
     }
