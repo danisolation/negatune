@@ -1,0 +1,29 @@
+.header{
+    background: var(--black);
+    height: 100px;
+}
+
+.navbar{
+    padding: 25px 0;
+    z-index: 999;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.brand{
+    padding: 0;
+    width: 200px;
+    margin-right: 1em;
+    font-size: 1em;
+    // color: rgba(var(--bs-emphasis-color-rgb),1);;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.img{
+    color: transparent;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
