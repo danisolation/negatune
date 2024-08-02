@@ -1,0 +1,21 @@
+.sec{
+    margin: 80px 0;
+}
+
+.more{
+    display: inline-block;
+    text-decoration: none;
+    transition: var(--transition);
+    letter-spacing: .5px;
+    cursor: pointer;
+    color: inherit;
+    width: auto;
+}
+
+.more span{
+    font-size: 20px;
+}
+
+.more span:hover{
+    color: #03346E;
+}

@@ -1,27 +1,35 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from "react";
+import axios from "axios";
+import { Link } from "react-router-dom";
+import classNames from "classnames/bind";
+import styles from "./HomePage.module.scss";
+import Button from "../../components/Button/Button";
+import Box from "../../components/Box/Box";
+
+const cx = classNames.bind(styles);
 
 const HomePage = () => {
-  const [titles, setTitles] = useState([]);
-
-  useEffect(() => {
-    axios.get('/api/titles')
-      .then(response => setTitles(response.data))
-      .catch(error => console.error(error));
-  }, []);
-
   return (
-    <div>
-      <h2>Popular Manga</h2>
-      <ul>
-        {titles.map(title => (
-          <li key={title.titleId}>
-            <Link to={`/titles/${title.titleId}`}>{title.name}</Link>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <>
+      <section className={cx("sec")}>
+        <div className={cx("container")}>
+          <div className={cx("heading")}>
+            <h1>
+              Truyện phổ biến
+              <Button className={cx("more")} href={"/"}>
+                Xem thêm
+              </Button>
+            </h1>
+          </div>
+          <div className={cx("row")}>
+            <Box/>
+            <Box/>
+            <Box/>
+            <Box/>
+          </div>
+        </div>
+      </section>
+    </>
   );
 };
 
