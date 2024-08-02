@@ -117,7 +117,7 @@
   color: var(--bs-body-color);
   white-space: nowrap;
   border: var(--bs-border-width) solid var(--bs-border-color);
-  -webkit-appearance: button;
+  // -webkit-appearance: button;
   text-transform: none;
   margin: 0;
 }
@@ -157,4 +157,29 @@
   background-clip: padding-box;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   height: 40px;
+}
+
+.auth {
+  display: flex !important;
+}
+
+.authButton {
+  padding: 10px 10px !important;
+  border: 2px solid var(--color-yellow);
+  border-radius: 8px;
+  font-weight: 500;
+  height: auto;
+  text-align: center;
+  transition: var(--transition);
+  position: relative;
+  z-index: 1;
+}
+
+.authButton:hover {
+  background: var(--color-yellow);
+  color: var(--color-white);
+}
+
+.navItem a:hover{
+  color: var(--color-yellow);
 }

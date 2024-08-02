@@ -35,7 +35,7 @@ const Header = () => (
               </button>
               <input
                 className={cx("searchInput")}
-                // required
+                required
                 placeholder="Tìm kiếm"
                 autocomplete="off"
                 type="text"
@@ -44,7 +44,9 @@ const Header = () => (
               />
             </div>
           </form>
-          <div></div>
+          <div className={cx("auth")}>
+            <Button className={cx("authButton")} to="/register">Đăng nhập</Button>
+          </div>
         </div>
       </nav>
     </div>
