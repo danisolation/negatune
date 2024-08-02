@@ -2,22 +2,15 @@
 
 ## Introduction
 
-<p>Negatune</p>
+<p>Negatune Server</p>
 
 ## Installation
 
 **Run API**
 
 <pre>
-cd backend
 mvn clean install
 mvn spring-boot:run
 </pre>
 
-**Run Front-end**
 
-<pre>
-cd frontend
-npm install
-npm start
-</pre>
