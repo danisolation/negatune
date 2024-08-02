@@ -2,7 +2,7 @@
 
 ## Introduction
 
-<p>Negatune Server</p>
+<p>Negatune Server - BE</p>
 
 ## Installation
 
