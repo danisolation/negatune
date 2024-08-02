@@ -9,11 +9,14 @@
     letter-spacing: .5px;
     cursor: pointer;
     color: inherit;
-    width: auto;
 }
 
 .more span{
+    color: var(--color-grey-light);
+    font-weight: 400;
     font-size: 20px;
+    display: inline-block;
+    letter-spacing: 1.5px;
 }
 
 .more span:hover{

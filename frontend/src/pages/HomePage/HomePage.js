@@ -16,23 +16,48 @@ const HomePage = () => {
           <div className={cx("heading")}>
             <h1>
               Truyện phổ biến
-              <Button className={cx("more")} href={"/"}>
-                Xem thêm
-              </Button>
+              <a className={cx("more")} href={"/"}>
+                <span>Xem thêm</span>
+              </a>
             </h1>
           </div>
           <div className={cx("row")}>
-            <Box/>
-            <Box/>
-            <Box/>
-            <Box/>
-            <Box/>
-            <Box/>
-            <Box/>
-            <Box/>
-            <Box/>
-            <Box/>
-            <Box/>
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+          </div>
+        </div>
+      </section>
+      <section className={cx("sec")}>
+        <div className={cx("container")}>
+          <div className={cx("heading")}>
+            <h1>
+              Truyện phổ biến
+              <a className={cx("more")} href={"/"}>
+                <span>Xem thêm</span>
+              </a>
+            </h1>
+          </div>
+          <div className={cx("row")}>
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
           </div>
         </div>
       </section>
