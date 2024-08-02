@@ -26,6 +26,13 @@ const HomePage = () => {
             <Box/>
             <Box/>
             <Box/>
+            <Box/>
+            <Box/>
+            <Box/>
+            <Box/>
+            <Box/>
+            <Box/>
+            <Box/>
           </div>
         </div>
       </section>

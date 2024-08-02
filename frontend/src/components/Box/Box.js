@@ -2,6 +2,7 @@ import classNames from "classnames/bind";
 import styles from "./Box.module.scss";
 import { Link } from "react-router-dom";
 import images from "../../assets/images/images";
+import Button from "../Button/Button";
 
 const cx = classNames.bind(styles);
 
@@ -43,7 +44,7 @@ function Box({
                 <p className={cx("chapBox")}>Chap 34</p>
             </div>
         </div>
-        <a>sdawd</a>
+        <Button className={cx("title")} href={"/"}>adwdwadwfad</Button>
       </div>
     </Comp>
   );
