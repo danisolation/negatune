@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/danisolation/negatune/frontend/static/css/main.82a9fc1d.css",
+    "main.js": "/danisolation/negatune/frontend/static/js/main.f9fd0547.js",
+    "static/js/453.8ab44547.chunk.js": "/danisolation/negatune/frontend/static/js/453.8ab44547.chunk.js",
+    "static/media/bgp.png": "/danisolation/negatune/frontend/static/media/bgp.956ca2f297ad75732e59.png",
+    "static/media/logo.png": "/danisolation/negatune/frontend/static/media/logo.4fbed7544f09ba4afc78.png",
+    "index.html": "/danisolation/negatune/frontend/index.html",
+    "main.82a9fc1d.css.map": "/danisolation/negatune/frontend/static/css/main.82a9fc1d.css.map",
+    "main.f9fd0547.js.map": "/danisolation/negatune/frontend/static/js/main.f9fd0547.js.map",
+    "453.8ab44547.chunk.js.map": "/danisolation/negatune/frontend/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82a9fc1d.css",
+    "static/js/main.f9fd0547.js"
+  ]
+}
